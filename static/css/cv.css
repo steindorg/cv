@@ -1,0 +1,162 @@
+body{
+    margin-left : 10%;
+	margin-right : 10%;
+    margin-top:3%;
+    font-family: 'Lato', sans-serif;
+}
+h2{
+    text-align:center;
+    font-family: 'Lato', sans-serif;
+    color: solid black;
+    font-size:55px;
+}
+.fb_link{
+    margin-top:1%;
+
+}
+.almennt{
+    display:block;
+    width:100%;
+    margin-bottom: 2%;
+}
+.almennt_text{
+    margin-top: -1.8%;
+    float:right;
+    width:70%;
+    font-family: 'Lato', sans-serif;
+}
+.almennt_img{
+
+    position: relative;
+
+}
+
+.almennt_img img{
+    border: 1px solid;
+    border-radius: 8px;
+
+}
+/*xxxxxxxxxxxxxxx nav bar xxxxxxxxxxxxxxxx*/
+.nav_content_container{
+    display:block;
+    width:100%;
+}
+
+.nav{
+    width: 25.8%;;
+    float:left;
+    display:inline-block;
+    margin-bottom: 700px;
+    border-color: black;
+    background-color:#C8C8C8;
+    border-radius: 5px;
+}
+
+.nav ul{
+width:100%;
+
+}
+.nav li{
+	list-style: none;
+    margin-left:-19px;
+    margin-top:5%;
+}
+.nav li a{
+    font-size:115%;
+    text-decoration:none;
+    color:black;
+}
+.nav li a:hover{
+    color: gray;
+    border-radius: 5px;
+}
+/*xxx til að gera mús að pointer fyrir flokk annað og breyta lit xxxx*/
+.annad dl dt{
+    cursor: pointer;
+}
+.annad dl dt:hover{
+    color: gray;
+}
+
+/*xxx til að gera mús að pointer fyrir flokk reynsla og breyta lit xxxx*/
+.onnur_reynsla dt{
+   cursor: pointer;
+}
+.onnur_reynsla dt:hover{
+    color: gray;
+}
+
+/*xxxxxxxxxxxxxxx byrting á gögnum xxxxxxxxxxxxxxx*/
+a{
+    color:black;
+}
+a:hover{
+  color: gray;
+}
+
+#intro{/* Texti sem birtist þegar komið er inn á síðunna*/
+font-size: 20px;
+}
+
+
+.content{ /* wrapper sem heldur utan um gögn sem birtast*/
+    display:block;
+}
+.content_container{ /*content div inn í wrapper*/
+    display:block;
+    margin-left:30%;
+}
+#home_text{
+    font-size: 19px;
+}
+
+dt{ /* Stílun fyrir content haus í lista   */
+    border-bottom: solid black 1px;
+    font-size: 20px;
+}
+dd{ /* stílun á efni inn í lista */
+    font-size:18px;
+}
+#_dt{ /* til að ýtta niður second content haus í hverjum flokki*/
+    margin-top: 10px;
+}
+#push_down_dd{ /* til að gefa meira pláss frá content haus og efni tilheyrandi contents*/
+    margin-top: 10px;
+}
+
+#intro{ /* intro texti sem sést þegar maður kemur á síðunna*/
+font-size: 20px;
+}
+
+.onnur_reynsla dd{
+    margin-top: 0px;
+
+
+}
+#forr_reynsla_ul{ /*listi fyrir forritunar reynslu*/
+    list-style-type: none;
+    margin-right:10%;
+}
+p{ /*stíll á öllu efni inn í listum*/
+    font-size:19px;
+    font-family: 'Lato', sans-serif;
+    font-weight: lighter;
+}
+.text_for_forr_reynsla{
+    margin-left: 5%;
+}
+.tonlistarverkefni_header{
+    font-weight: bold;
+
+}
+#push_down_dd ul li{
+    list-style: none;
+}
+.li_starfsreynsla{
+    margin-left: 5%;
+
+}
+
+.hide{
+    display:none;
+}
